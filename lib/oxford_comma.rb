@@ -4,7 +4,7 @@ def oxford_comma(array)
     test << array[i] + ","
   end
   test << "and"
-  test << array[length-1]
+  test << array[array.length-1]
 
   return test
 end
