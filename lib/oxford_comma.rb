@@ -1,5 +1,7 @@
 def oxford_comma(array)
   test = []
+  if(array.length == 1)
+    return 
   (0..array.length-2).each do |i|
     test << array[i] + ","
   end
